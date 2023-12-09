@@ -1,0 +1,67 @@
+.player {
+  border: 2px solid transparent;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.playerName {
+  display: inline-block;
+  width: 10rem;
+  font-size: 1rem;
+  color: #e1dec7;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-overflow: ellipsis;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.player input {
+  font: inherit;
+  font-size: 1rem;
+  width: 10rem;
+  border: none;
+  padding: 0.5rem;
+  animation: pulse-text 2s infinite;
+  background-color: #46432f;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation: pulse-text 2s infinite;
+  color: #e1dec7;
+}
+
+.playerSymbol {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #e1dec7;
+}
+
+@keyframes pulse-text {
+  0% {
+    color: #e1dec7;
+  }
+
+  50% {
+    color: #9f9d83;
+  }
+
+  100% {
+    color: #e1dec7;
+  }
+}
+
+@media (max-width:345px) {
+  .playerName {
+    width: 6rem;
+  }
+}
