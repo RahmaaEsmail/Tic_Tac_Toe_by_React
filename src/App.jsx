@@ -3,7 +3,7 @@ import GameBoard from "./components/GameBoard/GameBoard";
 import Header from "./components/Header/Header";
 import Player from "./components/Player/Player";
 import GameOver from "./components/GameOver/GameOver";
-import Log from "./components/log/Log";
+import Log from "./components/Log/Log";
 import {
   derivedActivePlayer,
   derivedGameBoard,
